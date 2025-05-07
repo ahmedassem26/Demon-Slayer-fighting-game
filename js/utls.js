@@ -23,7 +23,7 @@ function determinWinner({ player, enmy, timerId }) {
     document.querySelector("#resultOfGame").innerHTML = "Player 2 Wins";
   }
 }
-let timer = 51;
+let timer = 101;
 let timerId;
 function decreaseTimer() {
   if (timer > 0) {
